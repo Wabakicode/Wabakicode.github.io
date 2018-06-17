@@ -7,6 +7,6 @@ document.getElementById("theword").innerHTML = wordToGuess;
 var blankWord = "";
 for(var i = 0 ;i < wordToGuess.length ; i++)
 {
-	blankWord = blankWord + '_ ';
+	blankWord = blankWord + '_';
 }
 document.getElementById("guesstheword").innerHTML = blankWord;

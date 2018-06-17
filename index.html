@@ -10,7 +10,7 @@
 	<h1> Hangman </h1>
 	<canvas id="display" width="600" height="300" style = "border:2px solid #000000;"></canvas>
 	<p id="msg">Guess the word</p>
-	<p id="theword"></p>
+	<p hidden id="theword"></p>
 	<p id="guesstheword"></p>
 	<script src="getWord.js"></script>
 	
@@ -42,8 +42,9 @@
 	<a value="y" href="javascript:makeGuessF()">Y</a>
 	<a value="z" href="javascript:makeGuessF()">Z</a>
 	</p>
-	<p id="test">test</p>
 	<script src="makeGuess.js"></script>
+	<p id="lives">11</p>
+	<input id="newgame" type="button" value="Start over" onClick="location.href=location.href">
 	</div>
 </body>
 </html>
